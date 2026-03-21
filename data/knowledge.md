@@ -44,7 +44,7 @@ XC São Paulo drew the 4th lottery position, selecting last in Round 1 and first
 
 
 ## How the Championship Works
-Every point an athlete earns in their individual discipline counts toward their Club's total. The Club with the highest combined points at the end of the season wins the Club Championship and a Championship Bonus shared among the winning team's athletes, pro-rated by competition participation. Athletes still compete individually and earn discipline medals and performance bonuses at each stop.
+Every point an athlete earns in their individual discipline counts toward their Club's total. The Club with the highest combined points at the end of the season wins the Club Championship and a Championship Bonus of $500,000 USD shared among the winning team's athletes, pro-rated by competition participation. Athletes still compete individually and earn discipline medals and performance bonuses at each stop.
 
 ## Scoring System
 Placements in each discipline earn points. The system is heavily top-weighted — first place earns significantly more than mid-field finishes. Performance bonuses are awarded at each stop based on final discipline placement across two pay scales at the League's discretion.
@@ -235,7 +235,7 @@ How many Brazilians are on XC São Paulo?
 Five — Gui Khury, Giovanni Vianna, Gabriela Mazetto, Luigi Cini, and Raicca Ventura. XC São Paulo has the most Brazilian representation of any club in the 2026 XGL.
 
 How does the championship work?
-All points an athlete earns in their individual discipline count toward the Club total. The Club with the highest combined points at season's end wins the Club Championship and shares a Championship Bonus. Athletes still earn individual discipline medals and performance bonuses at each stop.
+All points an athlete earns in their individual discipline count toward the Club total. The Club with the highest combined points at season's end wins the Club Championship and shares a $500,000 USD Championship Bonus, pro-rated by competition participation. Athletes still earn individual discipline medals and performance bonuses at each stop.
 
 What is the team's mission for the 2026 season?
 In Bob Burnquist's words: have a good time, land everything, dig deep, and manifest all that we can be in our expression to inspire others. Wherever the results land, they land. We go out there and inspire.
