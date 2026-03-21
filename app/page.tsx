@@ -108,7 +108,7 @@ export default function Home() {
   return (
     <div className="flex h-screen w-screen overflow-hidden">
       <Sidebar />
-      <main className="flex flex-col flex-1 min-w-0 bg-white">
+      <main className="flex flex-col flex-1 min-w-0 bg-white pt-14 md:pt-0">
         <ChatArea
           messages={messages}
           loading={loading}

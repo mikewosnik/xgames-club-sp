@@ -34,7 +34,7 @@ export default function InputBar({ onSend, loading, isCoolingDown, secondsLeft, 
 
   if (isCoolingDown) {
     return (
-      <div className="px-4 md:px-8 pb-6 pt-3 border-t border-xgray-200 bg-white">
+      <div className="px-4 md:px-8 pt-3 border-t border-xgray-200 bg-white" style={{ paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))" }}>
         <div className="max-w-2xl mx-auto flex flex-col items-center gap-2 bg-xblue-500 rounded-2xl px-6 py-5 text-white text-center">
           <div className="text-2xl font-bold tracking-tight" style={{ fontVariantNumeric: "tabular-nums" }}>
             {fmt(secondsLeft)}
@@ -49,7 +49,7 @@ export default function InputBar({ onSend, loading, isCoolingDown, secondsLeft, 
   }
 
   return (
-    <div className="px-4 md:px-8 pb-6 pt-3 border-t border-xgray-200 bg-white">
+    <div className="px-4 md:px-8 pt-3 border-t border-xgray-200 bg-white" style={{ paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))" }}>
       <div className="max-w-2xl mx-auto flex items-end gap-3 bg-xgray-50 border border-xgray-300 rounded-2xl px-4 py-3 focus-within:border-xblue-500 focus-within:ring-2 focus-within:ring-xblue-100 transition-all">
         <textarea
           rows={1}

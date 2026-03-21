@@ -136,14 +136,17 @@ export default function Sidebar() {
         <SidebarContent />
       </aside>
 
-      {/* Mobile toggle button — shorthand logo */}
-      <button
-        onClick={() => setMobileOpen(true)}
-        aria-label="Open menu"
-        className="md:hidden fixed top-3 left-3 z-40 w-11 h-11 rounded-xl overflow-hidden shadow-lg"
-      >
-        <img src="/shorthand-blue.svg" alt="XC SP" className="w-full h-full object-cover" />
-      </button>
+      {/* Mobile header bar */}
+      <header className="md:hidden fixed top-0 inset-x-0 z-40 flex items-center h-14 px-4 bg-white border-b border-xgray-200" style={{ paddingTop: "env(safe-area-inset-top)" }}>
+        <button
+          onClick={() => setMobileOpen(true)}
+          aria-label="Open menu"
+          className="w-9 h-9 rounded-xl overflow-hidden shrink-0"
+        >
+          <img src="/shorthand-blue.svg" alt="XC SP" className="w-full h-full object-cover" />
+        </button>
+        <span className="ml-3 text-sm font-semibold text-xgray-900 truncate">X Games Club São Paulo</span>
+      </header>
 
       {/* Mobile overlay */}
       {mobileOpen && (
