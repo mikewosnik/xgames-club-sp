@@ -116,6 +116,21 @@ const TOPIC_KEYWORDS = [
   "patineta",
   "patinaje",
 
+  // Events / stops
+  "event",
+  "events",
+  "where",
+  "when",
+  "schedule",
+  "calendario",
+  "when does",
+  "x fest",
+  "new orleans",
+  "superdome",
+  "sacramento",
+  "venue",
+  "location",
+
   // Japanese
   "選手",
   "チーム",

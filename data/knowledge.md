@@ -43,6 +43,24 @@ Athletes drafted in Rounds 1 and 2 choose a 2-year or 3-year contract term at th
 XC São Paulo drew the 4th lottery position, selecting last in Round 1 and first in Round 4. SP's exact pick numbers: #4, #5 (R1), #11, #14 (R2), #18, #23 (R3), #25, #32 (R4), #36, #37 (R5).
 
 
+## 2026 Season Stops
+
+### Stop 1 — Sacramento 2026
+Dates: June 26–28, 2026
+Location: Sacramento, California, USA
+This is the official opening of the XGL Summer Season. The event brings together 100+ athletes across Skateboarding, BMX, and Moto X, plus live music and a festival area called X Fest. Sacramento marks the start of the points race for all four clubs.
+
+### Stop 2 — Japan 2026
+Dates: July 4–5, 2026
+Location: Japan (city not yet officially confirmed)
+The second stop of the inaugural XGL season. Clubs and athletes continue accumulating points heading into the championship. The X Games has confirmed the country and dates but has not publicly announced the specific city.
+
+### Stop 3 — New Orleans 2026 (Championship)
+Dates: July 24–26, 2026
+Location: Caesars Superdome, New Orleans, Louisiana, USA
+This is the season finale and championship decider — the X Games Championship New Orleans 2026. The club with the most combined points at the end of this stop is crowned the inaugural XGL champion. The winning club shares a $500,000 USD Championship Bonus. The Caesars Superdome is one of the largest and most iconic indoor venues in the world.
+
+
 ## How the Championship Works
 Every point an athlete earns in their individual discipline counts toward their Club's total. The Club with the highest combined points at the end of the season wins the Club Championship and a Championship Bonus of $500,000 USD shared among the winning team's athletes, pro-rated by competition participation. Athletes still compete individually and earn discipline medals and performance bonuses at each stop.
 
@@ -236,6 +254,15 @@ Five — Gui Khury, Giovanni Vianna, Gabriela Mazetto, Luigi Cini, and Raicca Ve
 
 How does the championship work?
 All points an athlete earns in their individual discipline count toward the Club total. The Club with the highest combined points at season's end wins the Club Championship and shares a $500,000 USD Championship Bonus, pro-rated by competition participation. Athletes still earn individual discipline medals and performance bonuses at each stop.
+
+Where are the 2026 season stops? / What are the events? / Where does the team compete?
+The 2026 XGL Summer Season has three stops: Stop 1 — Sacramento, California (June 26–28); Stop 2 — Japan (July 4–5, city TBD); Stop 3 — New Orleans, Louisiana at the Caesars Superdome (July 24–26, Championship). The New Orleans stop is the season finale where the XGL champion is crowned.
+
+What is X Fest?
+X Fest is the festival area at the Sacramento stop, featuring live music alongside the athletic competitions. It is part of the official X Games Sacramento 2026 event, June 26–28.
+
+Where is the XGL championship held?
+The inaugural XGL Championship takes place at the Caesars Superdome in New Orleans, Louisiana, July 24–26, 2026.
 
 What is the team's mission for the 2026 season?
 In Bob Burnquist's words: have a good time, land everything, dig deep, and manifest all that we can be in our expression to inspire others. Wherever the results land, they land. We go out there and inspire.
