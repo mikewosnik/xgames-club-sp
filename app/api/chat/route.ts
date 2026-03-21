@@ -58,13 +58,16 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "No user message found." }, { status: 400 });
     }
 
-    if (isGreeting(lastUserMessage.content)) {
+    const isFirstMessage = messages.filter((m) => m.role === "user").length === 1;
+
+    if (isFirstMessage && isGreeting(lastUserMessage.content)) {
       return NextResponse.json({
         reply: "Hey! Ask me about the XC São Paulo roster, our GM, the XGL format, or the 2026 season stops.\n\nou pergunte-me em português.\n\n私は日本語も話せます。",
       });
     }
 
-    if (!isRelevantQuery(lastUserMessage.content)) {
+    // Only enforce topic check on the first user message — follow-ups inherit context
+    if (isFirstMessage && !isRelevantQuery(lastUserMessage.content)) {
       return NextResponse.json({ reply: REFUSAL });
     }
 
@@ -73,7 +76,7 @@ export async function POST(req: NextRequest) {
 
     const response = await anthropic.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 512,
+      max_tokens: 1024,
       system: systemPrompt,
       messages: messages,
     });
