@@ -12,6 +12,29 @@ const REFUSAL =
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_HISTORY_MESSAGES = 20;
 
+// Server-side rate limiting (in-memory, per serverless instance)
+const RATE_LIMIT = 20;
+const RATE_WINDOW_MS = 20 * 60 * 1000; // 20 minutes
+
+const ipStore = new Map<string, { count: number; resetAt: number }>();
+
+function checkRateLimit(ip: string): { allowed: boolean; retryAfter: number } {
+  const now = Date.now();
+  const entry = ipStore.get(ip);
+
+  if (!entry || now >= entry.resetAt) {
+    ipStore.set(ip, { count: 1, resetAt: now + RATE_WINDOW_MS });
+    return { allowed: true, retryAfter: 0 };
+  }
+
+  if (entry.count >= RATE_LIMIT) {
+    return { allowed: false, retryAfter: Math.ceil((entry.resetAt - now) / 1000) };
+  }
+
+  entry.count += 1;
+  return { allowed: true, retryAfter: 0 };
+}
+
 function sanitizeText(text: string): string {
   // Strip control characters except newlines/tabs
   return text.replace(/[^\P{C}\n\t]/gu, "").trim();
@@ -43,6 +66,19 @@ function validateMessages(raw: unknown): { role: "user" | "assistant"; content: 
 
 export async function POST(req: NextRequest) {
   try {
+    const ip =
+      req.headers.get("x-forwarded-for")?.split(",")[0].trim() ??
+      req.headers.get("x-real-ip") ??
+      "unknown";
+
+    const { allowed, retryAfter } = checkRateLimit(ip);
+    if (!allowed) {
+      return NextResponse.json(
+        { error: `Rate limit reached. Try again in ${Math.ceil(retryAfter / 60)} min.` },
+        { status: 429 }
+      );
+    }
+
     const body = await req.json();
 
     let messages: { role: "user" | "assistant"; content: string }[];
