@@ -22,7 +22,7 @@ export default function ChatArea({ messages, loading, isEmpty, suggestions, onSu
   }, [messages, loading]);
 
   return (
-    <div className="flex-1 overflow-y-auto custom-scroll px-4 md:px-8 py-6">
+    <div className="flex-1 overflow-y-scroll custom-scroll px-4 md:px-8 py-6" style={{ overscrollBehavior: "contain" }}>
       {isEmpty ? (
         <div className="flex flex-col items-center justify-center h-full text-center max-w-lg mx-auto gap-6">
           <div>
