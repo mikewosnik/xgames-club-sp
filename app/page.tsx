@@ -107,7 +107,10 @@ export default function Home() {
 
   return (
     <div className="flex w-screen overflow-hidden" style={{ height: "100dvh" }}>
-      <Sidebar onReset={() => { setMessages([]); setUserMsgCount(0); setCooldownUntil(null); setError(null); }} />
+      <Sidebar
+        onReset={() => { setMessages([]); setUserMsgCount(0); setCooldownUntil(null); setError(null); }}
+        onSelectPerson={(name) => sendMessage(`Tell me about ${name}`)}
+      />
       <main className="flex flex-col flex-1 min-w-0 bg-white pt-14 md:pt-0">
         <ChatArea
           messages={messages}

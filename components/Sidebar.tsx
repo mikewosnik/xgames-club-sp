@@ -23,7 +23,7 @@ const VALUES = [
   "Shared Growth",
 ];
 
-function SidebarContent({ onClose, onReset }: { onClose?: () => void; onReset?: () => void }) {
+function SidebarContent({ onClose, onReset, onSelectPerson }: { onClose?: () => void; onReset?: () => void; onSelectPerson?: (name: string) => void }) {
   return (
     <div className="flex flex-col h-full overflow-y-auto custom-scroll">
       {/* Logo + close */}
@@ -60,10 +60,13 @@ function SidebarContent({ onClose, onReset }: { onClose?: () => void; onReset?: 
         <p className="text-[10px] uppercase tracking-widest text-xblue-100 opacity-60 mb-3">
           General Manager
         </p>
-        <div>
+        <button
+          onClick={() => { onSelectPerson?.("Bob Burnquist"); onClose?.(); }}
+          className="text-left hover:opacity-70 transition-opacity"
+        >
           <p className="font-semibold text-sm leading-tight">Bob Burnquist</p>
           <p className="text-[11px] text-xblue-100 opacity-60">GM · Club São Paulo</p>
-        </div>
+        </button>
       </div>
 
       {/* Roster */}
@@ -75,10 +78,13 @@ function SidebarContent({ onClose, onReset }: { onClose?: () => void; onReset?: 
           {ROSTER.map((a) => (
             <li key={a.pick} className="flex items-start gap-2">
               <span className="text-sm shrink-0">{a.flag}</span>
-              <div className="min-w-0">
+              <button
+                onClick={() => { onSelectPerson?.(a.name); onClose?.(); }}
+                className="min-w-0 text-left hover:opacity-70 transition-opacity"
+              >
                 <p className="text-xs font-semibold leading-tight truncate">{a.name}</p>
                 <p className="text-[10px] text-xblue-100 opacity-50 leading-tight">{a.sport}</p>
-              </div>
+              </button>
             </li>
           ))}
         </ul>
@@ -127,14 +133,14 @@ function SidebarContent({ onClose, onReset }: { onClose?: () => void; onReset?: 
   );
 }
 
-export default function Sidebar({ onReset }: { onReset?: () => void }) {
+export default function Sidebar({ onReset, onSelectPerson }: { onReset?: () => void; onSelectPerson?: (name: string) => void }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <>
       {/* Desktop sidebar */}
       <aside className="hidden md:flex flex-col w-[280px] shrink-0 bg-xblue-500 text-white border-r border-xblue-700">
-        <SidebarContent onReset={onReset} />
+        <SidebarContent onReset={onReset} onSelectPerson={onSelectPerson} />
       </aside>
 
       {/* Mobile header bar */}
@@ -162,7 +168,7 @@ export default function Sidebar({ onReset }: { onReset?: () => void }) {
             className="relative w-[300px] max-w-[85vw] bg-xblue-500 text-white flex flex-col shadow-2xl"
             style={{ animation: "slideInLeft 0.22s ease-out" }}
           >
-            <SidebarContent onClose={() => setMobileOpen(false)} onReset={() => { onReset?.(); setMobileOpen(false); }} />
+            <SidebarContent onClose={() => setMobileOpen(false)} onReset={() => { onReset?.(); setMobileOpen(false); }} onSelectPerson={onSelectPerson} />
           </aside>
         </div>
       )}
