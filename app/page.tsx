@@ -106,7 +106,7 @@ export default function Home() {
   const isCoolingDown = cooldownUntil !== null;
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden">
+    <div className="flex w-screen overflow-hidden" style={{ height: "100dvh" }}>
       <Sidebar />
       <main className="flex flex-col flex-1 min-w-0 bg-white pt-14 md:pt-0">
         <ChatArea
