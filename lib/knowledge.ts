@@ -1,17 +1,14 @@
 import fs from "fs";
 import path from "path";
-import mammoth from "mammoth";
 
-const DOCX_PATH = path.join(process.cwd(), "data", "knowledge.docx");
+const MD_PATH = path.join(process.cwd(), "data", "knowledge.md");
 
 let cachedKnowledge: string | null = null;
 
 export async function loadKnowledge(): Promise<string> {
   if (cachedKnowledge) return cachedKnowledge;
 
-  const buffer = fs.readFileSync(DOCX_PATH);
-  const result = await mammoth.extractRawText({ buffer });
-  cachedKnowledge = result.value.trim();
+  cachedKnowledge = fs.readFileSync(MD_PATH, "utf-8").trim();
   return cachedKnowledge;
 }
 
