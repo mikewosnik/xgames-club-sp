@@ -23,7 +23,7 @@ const VALUES = [
   "Shared Growth",
 ];
 
-function SidebarContent({ onClose }: { onClose?: () => void }) {
+function SidebarContent({ onClose, onReset }: { onClose?: () => void; onReset?: () => void }) {
   return (
     <div className="flex flex-col h-full overflow-y-auto custom-scroll">
       {/* Logo + close */}
@@ -32,8 +32,9 @@ function SidebarContent({ onClose }: { onClose?: () => void }) {
           <img
             src="/wordmark-blue.svg"
             alt="XC São Paulo"
-            className="rounded-lg w-full"
+            className="rounded-lg w-full cursor-pointer"
             style={{ maxHeight: 180, objectFit: "contain" }}
+            onClick={onReset}
           />
           {onClose && (
             <button
@@ -126,14 +127,14 @@ function SidebarContent({ onClose }: { onClose?: () => void }) {
   );
 }
 
-export default function Sidebar() {
+export default function Sidebar({ onReset }: { onReset?: () => void }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <>
       {/* Desktop sidebar */}
       <aside className="hidden md:flex flex-col w-[280px] shrink-0 bg-xblue-500 text-white border-r border-xblue-700">
-        <SidebarContent />
+        <SidebarContent onReset={onReset} />
       </aside>
 
       {/* Mobile header bar */}
@@ -161,7 +162,7 @@ export default function Sidebar() {
             className="relative w-[300px] max-w-[85vw] bg-xblue-500 text-white flex flex-col shadow-2xl"
             style={{ animation: "slideInLeft 0.22s ease-out" }}
           >
-            <SidebarContent onClose={() => setMobileOpen(false)} />
+            <SidebarContent onClose={() => setMobileOpen(false)} onReset={() => { onReset?.(); setMobileOpen(false); }} />
           </aside>
         </div>
       )}
