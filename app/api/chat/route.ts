@@ -7,7 +7,7 @@ const anthropic = new Anthropic({
 });
 
 const REFUSAL =
-  "This assistant covers X Games Club São Paulo only. Ask me about our GM, roster, season stops, or the XGL format.";
+  "Not sure what you mean, amigo! Ask me about the roster, our GM, the season stops, or the XGL format — I got you.";
 
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_HISTORY_MESSAGES = 20;
