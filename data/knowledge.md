@@ -49,19 +49,91 @@ XC São Paulo drew the 4th lottery position, selecting last in Round 1 and first
 Dates: June 26–28, 2026
 Location: Cal Expo Center, Sacramento, California, USA
 Broadcast: ABC, ESPN, ESPN2
+Disciplines: 18 total
+All times listed in Brasília Time (BRT). Local time is PT (subtract 4 hours from BRT).
 This is the official opening of the XGL Summer Season. The event brings together 100+ athletes across Skateboarding, BMX, and Moto X, plus live music and a festival area called X Fest. Sacramento marks the start of the points race for all four clubs.
+
+DAY 1 — Friday, June 26 (Sacramento)
+21:00–22:00 BRT — Men's BMX Park Final
+Following — Men's SKB Vert Best Trick
+TV: ESPN2 21:00–00:00 BRT
+
+DAY 2 — Saturday, June 27 (Sacramento)
+17:00–18:15 BRT — Men's SKB Street Final [Giovanni Vianna competes]
+18:30–19:00 BRT — Dave Mirra BMX Park Best Trick
+19:30–20:00 BRT — Women's SKB Vert Best Trick [Raicca Ventura competes]
+20:45–21:45 BRT — Men's SKB Park Final [Gui Khury, Luigi Cini compete]
+TV: ABC 17:00–19:00 BRT | ESPN 23:00–02:00 BRT
+
+DAY 3 — Sunday, June 28 (Sacramento)
+15:00–16:00 BRT — Women's SKB Street Final [Gabriela Mazetto competes]
+Following — Men's SKB Vert Final [Gui Khury competes]
+17:30–18:30 BRT — Men's BMX Street Final [Garrett Reynolds competes]
+Following — Women's BMX Park Final [Queen Saray Villegas competes]
+21:00–21:30 BRT — Women's SKB Street Best Trick & Awards
+TV: ABC 15:00–17:00 BRT | ESPN 22:00–01:00 BRT
 
 ### Stop 2 — X Games Chiba 2026
 Dates: July 4–5, 2026
 Location: Makuhari Messe, Chiba, Japan
-Broadcast: Nippon TV + ESPN
+Broadcast: Nippon TV + ESPN (US TV reprise July 10–12)
+Disciplines: 16 total
+All times listed in Brasília Time (BRT). Note: Chiba is 12 hours ahead of São Paulo — live competitions occur late night to early morning of the previous calendar day in BRT.
 The second stop of the inaugural XGL season. Clubs and athletes continue accumulating points heading into the championship.
+
+DAY 1 — Friday Night, July 3 BRT (= Saturday July 4 JST in Chiba)
+21:30 BRT — Men's BMX Street Final [Garrett Reynolds competes]
+22:45 BRT — Women's BMX Park Final [Queen Saray Villegas competes]
+01:45 BRT — Women's SKB Vert Final
+03:00 BRT — Men's SKB Street Best Trick
+03:45 BRT — Men's BMX Park Final
+
+DAY 2 — Saturday Night, July 4 BRT (= Sunday July 5 JST in Chiba)
+21:15 BRT — Men's SKB Park Final [Gui Khury, Luigi Cini compete]
+22:30 BRT — Women's SKB Vert Best Trick [Raicca Ventura competes]
+23:15 BRT — Men's BMX Park Best Trick
+00:00 BRT — Men's SKB Vert Best Trick [Gui Khury competes]
+01:05 BRT — Women's SKB Street Best Trick
+01:50 BRT — Women's SKB Park Final [Sky Brown, Raicca Ventura compete]
+03:05 BRT — Men's SKB Street [Giovanni Vianna competes]
+
+US TV Reprise (BRT):
+Friday July 10: ESPN 20:00–22:00
+Saturday July 11: ESPN2 20:00–22:00
+Sunday July 12: ABC 14:00–16:00 | ESPN2 20:00–22:00
 
 ### Stop 3 — X Games New Orleans 2026 (Championship)
 Dates: July 24–26, 2026
 Location: Caesars Superdome, New Orleans, Louisiana, USA
 Broadcast: ABC, ESPN
+Disciplines: 19 total | $500,000 Club Championship Bonus
+All times listed in Brasília Time (BRT). Local time is CT (subtract 4 hours from BRT).
 This is the season finale and championship decider — the X Games Championship New Orleans 2026. The club with the most combined points at the end of this stop is crowned the inaugural XGL champion. The winning club shares a $500,000 USD Championship Bonus. The Caesars Superdome is one of the largest and most iconic indoor venues in the world.
+
+DAY 1 — Friday, July 24 (New Orleans)
+19:30–20:30 BRT — Men's BMX Park
+Following — Moto X Best Whip
+22:00–23:00 BRT — Men's BMX Park Final
+TV: ESPN 22:00–01:00 BRT
+
+DAY 2 — Saturday, July 25 (New Orleans)
+15:00–15:30 BRT — Men's SKB Street Best Trick [Giovanni Vianna competes]
+16:00–17:00 BRT — Women's SKB Street [Gabriela Mazetto competes]
+Following — Men's SKB Vert [Gui Khury competes]
+20:00–21:00 BRT — Men's BMX Dirt
+Following — Women's SKB Vert Best Trick [Raicca Ventura competes]
+Following — Moto X Best Trick & XGL Recap
+TV: ABC 16:00–18:00 BRT | ESPN 20:00–23:00 BRT
+
+DAY 3 — Sunday, July 26 (New Orleans — CHAMPIONSHIP DAY)
+15:00–15:30 BRT — Dave Mirra BMX Park Best Trick
+15:45–17:00 BRT — Men's SKB Street [Giovanni Vianna competes]
+Following — Men's SKB Park [Gui Khury, Luigi Cini compete]
+19:00–20:00 BRT — Men's SKB Vert [Gui Khury competes]
+Following — Women's SKB Street Best Trick
+Following — BMX Dirt Best Trick
+22:00 BRT — XGL CHAMPIONSHIP FINAL AWARDS — $500,000 Team Prize Awarded
+TV: ABC 15:00–17:00 BRT | ESPN 19:00–22:00 BRT
 
 
 ## How the Championship Works
@@ -258,8 +330,14 @@ Five — Gui Khury, Giovanni Vianna, Gabriela Mazetto, Luigi Cini, and Raicca Ve
 How does the championship work?
 All points an athlete earns in their individual discipline count toward the Club total. The Club with the highest combined points at season's end wins the Club Championship and shares a $500,000 USD Championship Bonus, pro-rated by competition participation. Athletes still earn individual discipline medals and performance bonuses at each stop.
 
-Where are the 2026 season stops? / What are the events? / Where does the team compete?
-The 2026 XGL Summer Season has three stops: Stop 1 — X Games Sacramento (June 26–28, Cal Expo Center, broadcast on ABC/ESPN/ESPN2); Stop 2 — X Games Chiba, Japan (July 4–5, Makuhari Messe, broadcast on Nippon TV + ESPN); Stop 3 — X Games New Orleans, Caesars Superdome (July 24–26, broadcast on ABC/ESPN, Championship). The New Orleans stop is the season finale where the XGL champion is crowned.
+Where are the 2026 season stops? / What are the events? / Where does the team compete? / Qual é o schedule? / Qual é o horário?
+The 2026 XGL Summer Season has three stops. All times below are in Brasília Time (BRT).
+
+Stop 1 — X Games Sacramento: June 26–28, Cal Expo Center. Day 1 (Fri Jun 26): BMX Park Final 21:00. Day 2 (Sat Jun 27): SKB Street Final 17:00 (Giovanni), SKB Vert Best Trick 19:30 (Raicca), SKB Park Final 20:45 (Gui, Luigi). Day 3 (Sun Jun 28): Women's SKB Street Final 15:00 (Gabriela), SKB Vert Final TBD (Gui), BMX Street Final 17:30 (Garrett), Women's BMX Park Final TBD (Queen Saray). TV: ESPN2 Fri, ABC/ESPN Sat & Sun.
+
+Stop 2 — X Games Chiba: July 4–5, Makuhari Messe, Japan. Note: due to the 12-hour time difference, competitions air late night / early morning BRT. Day 1 (Fri night Jul 3 BRT): BMX Street 21:30 (Garrett), Women's BMX Park 22:45 (Queen Saray). Day 2 (Sat night Jul 4 BRT): SKB Park 21:15 (Gui, Luigi), Women's SKB Vert Best Trick 22:30 (Raicca), SKB Vert Best Trick 00:00 (Gui), Women's SKB Park 01:50 (Sky, Raicca), SKB Street 03:05 (Giovanni). US TV reprise July 10–12 on ESPN/ESPN2/ABC.
+
+Stop 3 — X Games New Orleans Championship: July 24–26, Caesars Superdome. Day 1 (Fri Jul 24): BMX Park Final 22:00. Day 2 (Sat Jul 25): SKB Street Best Trick 15:00 (Giovanni), Women's SKB Street 16:00 (Gabriela), SKB Vert TBD (Gui), Women's SKB Vert Best Trick TBD (Raicca). Day 3 (Sun Jul 26): SKB Street 15:45 (Giovanni), SKB Park TBD (Gui, Luigi), SKB Vert 19:00 (Gui), XGL Championship Awards 22:00 ($500K prize). TV: ESPN Fri, ABC/ESPN Sat & Sun.
 
 What is X Fest?
 X Fest is the festival area at the Sacramento stop, featuring live music alongside the athletic competitions. It is part of the official X Games Sacramento 2026 event, June 26–28.
