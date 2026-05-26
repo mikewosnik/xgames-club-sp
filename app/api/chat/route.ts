@@ -20,6 +20,12 @@ const ipStore = new Map<string, { count: number; resetAt: number }>();
 
 function checkRateLimit(ip: string): { allowed: boolean; retryAfter: number } {
   const now = Date.now();
+
+  // Prune expired entries to prevent unbounded memory growth
+  for (const [key, val] of ipStore) {
+    if (now >= val.resetAt) ipStore.delete(key);
+  }
+
   const entry = ipStore.get(ip);
 
   if (!entry || now >= entry.resetAt) {
@@ -107,20 +113,36 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ reply: REFUSAL });
     }
 
-    const knowledge = await loadKnowledge();
+    const knowledge = loadKnowledge();
     const systemPrompt = buildSystemPrompt(knowledge);
 
-    const response = await anthropic.messages.create({
+    const stream = anthropic.messages.stream({
       model: "claude-sonnet-4-6",
       max_tokens: 1024,
-      system: systemPrompt,
-      messages: messages,
+      system: [{ type: "text", text: systemPrompt, cache_control: { type: "ephemeral" } }],
+      messages,
     });
 
-    const textBlock = response.content.find((b) => b.type === "text");
-    const reply = textBlock?.type === "text" ? textBlock.text : REFUSAL;
+    const encoder = new TextEncoder();
+    const readable = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const event of stream) {
+            if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
+              controller.enqueue(encoder.encode(event.delta.text));
+            }
+          }
+        } catch (err) {
+          console.error("[/api/chat] Stream error:", err);
+        } finally {
+          controller.close();
+        }
+      },
+    });
 
-    return NextResponse.json({ reply });
+    return new Response(readable, {
+      headers: { "Content-Type": "text/plain; charset=utf-8" },
+    });
   } catch (err) {
     console.error("[/api/chat] Error:", err);
 

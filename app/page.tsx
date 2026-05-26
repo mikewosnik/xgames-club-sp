@@ -17,6 +17,10 @@ const SUGGESTIONS = [
 const MSG_LIMIT = 20;
 const COOLDOWN_MS = 20 * 60 * 1000; // 20 minutes
 
+const LS_MESSAGES = "xgames_messages";
+const LS_COUNT = "xgames_msg_count";
+const LS_COOLDOWN = "xgames_cooldown_until";
+
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
@@ -25,6 +29,38 @@ export default function Home() {
   const [cooldownUntil, setCooldownUntil] = useState<number | null>(null);
   const [secondsLeft, setSecondsLeft] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // Hydrate from localStorage after mount
+  useEffect(() => {
+    try {
+      const storedMessages = localStorage.getItem(LS_MESSAGES);
+      const storedCount = localStorage.getItem(LS_COUNT);
+      const storedCooldown = localStorage.getItem(LS_COOLDOWN);
+      if (storedMessages) setMessages(JSON.parse(storedMessages));
+      if (storedCount) setUserMsgCount(parseInt(storedCount, 10));
+      if (storedCooldown) {
+        const until = parseInt(storedCooldown, 10);
+        if (until > Date.now()) setCooldownUntil(until);
+      }
+    } catch {}
+  }, []);
+
+  // Sync state to localStorage
+  useEffect(() => {
+    localStorage.setItem(LS_MESSAGES, JSON.stringify(messages));
+  }, [messages]);
+
+  useEffect(() => {
+    localStorage.setItem(LS_COUNT, String(userMsgCount));
+  }, [userMsgCount]);
+
+  useEffect(() => {
+    if (cooldownUntil !== null) {
+      localStorage.setItem(LS_COOLDOWN, String(cooldownUntil));
+    } else {
+      localStorage.removeItem(LS_COOLDOWN);
+    }
+  }, [cooldownUntil]);
 
   useEffect(() => {
     if (cooldownUntil === null) return;
@@ -84,15 +120,42 @@ export default function Home() {
         throw new Error(data.error ?? `Request failed (${res.status})`);
       }
 
-      const data = await res.json();
+      const contentType = res.headers.get("Content-Type") ?? "";
 
-      const assistantMsg: Message = {
-        id: crypto.randomUUID(),
-        role: "assistant",
-        content: data.reply,
-      };
+      if (contentType.includes("application/json")) {
+        const data = await res.json();
+        setMessages((prev) => [
+          ...prev,
+          { id: crypto.randomUUID(), role: "assistant" as const, content: data.reply },
+        ]);
+      } else {
+        const reader = res.body!.getReader();
+        const decoder = new TextDecoder();
+        const msgId = crypto.randomUUID();
 
-      setMessages((prev) => [...prev, assistantMsg]);
+        setMessages((prev) => [
+          ...prev,
+          { id: msgId, role: "assistant" as const, content: "" },
+        ]);
+
+        let done = false;
+        while (!done) {
+          const { value, done: streamDone } = await reader.read();
+          done = streamDone;
+          if (value) {
+            const chunk = decoder.decode(value, { stream: !streamDone });
+            setMessages((prev) => {
+              const idx = prev.findIndex((m) => m.id === msgId);
+              if (idx === -1) return prev;
+              return [
+                ...prev.slice(0, idx),
+                { ...prev[idx], content: prev[idx].content + chunk },
+                ...prev.slice(idx + 1),
+              ];
+            });
+          }
+        }
+      }
     } catch (err) {
       setError(
         err instanceof Error ? err.message : "Something went wrong. Try again."
@@ -108,7 +171,15 @@ export default function Home() {
   return (
     <div className="flex w-screen overflow-hidden" style={{ height: "100dvh" }}>
       <Sidebar
-        onReset={() => { setMessages([]); setUserMsgCount(0); setCooldownUntil(null); setError(null); }}
+        onReset={() => {
+          setMessages([]);
+          setUserMsgCount(0);
+          setCooldownUntil(null);
+          setError(null);
+          localStorage.removeItem(LS_MESSAGES);
+          localStorage.removeItem(LS_COUNT);
+          localStorage.removeItem(LS_COOLDOWN);
+        }}
         onSelectPerson={(name) => sendMessage(`Who is ${name} on the XC São Paulo roster?`)}
       />
       <main className="flex flex-col flex-1 min-w-0 bg-white pt-14 md:pt-0">

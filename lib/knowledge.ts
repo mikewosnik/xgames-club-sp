@@ -5,7 +5,7 @@ const MD_PATH = path.join(process.cwd(), "data", "knowledge.md");
 
 let cachedKnowledge: string | null = null;
 
-export async function loadKnowledge(): Promise<string> {
+export function loadKnowledge(): string {
   if (cachedKnowledge) return cachedKnowledge;
 
   cachedKnowledge = fs.readFileSync(MD_PATH, "utf-8").trim();
@@ -97,26 +97,20 @@ const TOPIC_KEYWORDS = [
   "jogador",
   "jogadores",
 
-  // Spanish
+  // Spanish (unique terms — shared words like temporada/liga/campeonato already above)
   "equipo",
   "jugador",
   "jugadores",
-  "temporada",
-  "liga",
-  "campeonato",
   "director",
   "director general",
-  "formato",
-  "valores",
   "quién",
   "quien",
   "deporte",
   "deportes",
-  "paradas",
   "patineta",
   "patinaje",
 
-  // Events / stops
+  // Events / stops (unique terms — sacramento/new orleans/superdome already above)
   "event",
   "events",
   "where",
@@ -125,9 +119,6 @@ const TOPIC_KEYWORDS = [
   "calendario",
   "when does",
   "x fest",
-  "new orleans",
-  "superdome",
-  "sacramento",
   "venue",
   "location",
 
