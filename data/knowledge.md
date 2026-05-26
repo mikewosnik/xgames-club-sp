@@ -45,19 +45,22 @@ XC São Paulo drew the 4th lottery position, selecting last in Round 1 and first
 
 ## 2026 Season Stops
 
-### Stop 1 — Sacramento 2026
+### Stop 1 — X Games Sacramento 2026
 Dates: June 26–28, 2026
-Location: Sacramento, California, USA
+Location: Cal Expo Center, Sacramento, California, USA
+Broadcast: ABC, ESPN, ESPN2
 This is the official opening of the XGL Summer Season. The event brings together 100+ athletes across Skateboarding, BMX, and Moto X, plus live music and a festival area called X Fest. Sacramento marks the start of the points race for all four clubs.
 
-### Stop 2 — Japan 2026
+### Stop 2 — X Games Chiba 2026
 Dates: July 4–5, 2026
-Location: Japan (city not yet officially confirmed)
-The second stop of the inaugural XGL season. Clubs and athletes continue accumulating points heading into the championship. The X Games has confirmed the country and dates but has not publicly announced the specific city.
+Location: Makuhari Messe, Chiba, Japan
+Broadcast: Nippon TV + ESPN
+The second stop of the inaugural XGL season. Clubs and athletes continue accumulating points heading into the championship.
 
-### Stop 3 — New Orleans 2026 (Championship)
+### Stop 3 — X Games New Orleans 2026 (Championship)
 Dates: July 24–26, 2026
 Location: Caesars Superdome, New Orleans, Louisiana, USA
+Broadcast: ABC, ESPN
 This is the season finale and championship decider — the X Games Championship New Orleans 2026. The club with the most combined points at the end of this stop is crowned the inaugural XGL champion. The winning club shares a $500,000 USD Championship Bonus. The Caesars Superdome is one of the largest and most iconic indoor venues in the world.
 
 
@@ -176,8 +179,8 @@ Olympic Record: Not yet competed
 Key Highlights: Primitive Skateboards and Monster Energy athlete. Represents the gritty São Paulo street skateboarding tradition. Active on the World Skateboarding Tour. Grew up in and around the city the club represents.
 Identity Note: Giovanni is part of the Brazilian spine. His São Paulo roots are not a narrative — they are lived. He brings authentic city identity to the street side of the roster.
 
-Gabriela Mazetto  |  Pick #32 — Round 4
-Brazilian champion. Olympic athlete. Mother. One of Brazil's most decorated women's street skaters.
+Gabriela Mazetto  |  Pick #32 — Round 4 | CAPTAIN
+Brazilian champion. Olympic athlete. Mother. Captain of XC São Paulo. One of Brazil's most decorated women's street skaters.
 Sport / Discipline: Skateboarding — Street | Female
 Nationality: Brazilian
 Born: September 16, 1997 (Age 28)
@@ -185,8 +188,8 @@ Based: Brazil
 Instagram: @gabimazetto — 239K followers
 X Games Medals: Multiple X Games appearances
 Olympic Record: Paris 2024 Olympian
-Key Highlights: Brazilian National Champion. South American Champion. Adidas Skateboarding athlete. Mother. One of the most experienced and decorated women's street skaters Brazil has ever produced.
-Identity Note: Gabi is a cornerstone of Brazilian women's street skating. As a mother and multi-title champion, she brings depth and maturity that goes beyond results. Her presence is authentic and grounding for the team.
+Key Highlights: CAPTAIN of XC São Paulo. Brazilian National Champion. South American Champion. Adidas Skateboarding athlete. Mother. One of the most experienced and decorated women's street skaters Brazil has ever produced.
+Identity Note: Gabi is the captain of XC São Paulo and a cornerstone of Brazilian women's street skating. As a mother and multi-title champion, she brings depth and maturity that goes beyond results. Her presence is authentic and grounding for the team.
 
 Luigi Cini  |  Pick #36 — Round 5
 Brazilian Park specialist. Olympian. Competing with Brazil's greatest on the world stage.
@@ -246,8 +249,8 @@ No. XC São Paulo is not tied to national teams, Olympic qualification, or count
 Who is the General Manager?
 Bob Burnquist — the most decorated X Games athlete in history with 30 medals (14 Gold, 8 Silver, 8 Bronze). Brazilian-American, born in Rio de Janeiro, raised in São Paulo. Turned professional at 14. Competed in every Summer X Games from 1995 through 2017 — the only athlete ever to do so. Laureus World Action Sportsperson of the Year 2002. Licensed pilot, skydiver, and founder of Instituto Skate Cuida. Instagram: @bobburnquist.
 
-Who is on the XC São Paulo roster?
-Gui Khury (SKB/BRA), Sky Brown (SKB/GBR-JPN), Ryan Williams (BMX/AUS), Ibuki Matsumoto (SKB/JPN), Queen Saray Villegas (BMX/COL), Garrett Reynolds (BMX/USA), Giovanni Vianna (SKB/BRA), Gabriela Mazetto (SKB/BRA), Luigi Cini (SKB/BRA), Raicca Ventura (SKB/BRA).
+Who is on the XC São Paulo roster? / Who is the captain?
+Gui Khury (SKB/BRA), Sky Brown (SKB/GBR-JPN), Ryan Williams (BMX/AUS), Ibuki Matsumoto (SKB/JPN), Queen Saray Villegas (BMX/COL), Garrett Reynolds (BMX/USA), Giovanni Vianna (SKB/BRA), Gabriela Mazetto — Captain (SKB/BRA), Luigi Cini (SKB/BRA), Raicca Ventura (SKB/BRA). The team captain is Gabriela Mazetto.
 
 How many Brazilians are on XC São Paulo?
 Five — Gui Khury, Giovanni Vianna, Gabriela Mazetto, Luigi Cini, and Raicca Ventura. XC São Paulo has the most Brazilian representation of any club in the 2026 XGL.
@@ -256,7 +259,7 @@ How does the championship work?
 All points an athlete earns in their individual discipline count toward the Club total. The Club with the highest combined points at season's end wins the Club Championship and shares a $500,000 USD Championship Bonus, pro-rated by competition participation. Athletes still earn individual discipline medals and performance bonuses at each stop.
 
 Where are the 2026 season stops? / What are the events? / Where does the team compete?
-The 2026 XGL Summer Season has three stops: Stop 1 — Sacramento, California (June 26–28); Stop 2 — Japan (July 4–5, city TBD); Stop 3 — New Orleans, Louisiana at the Caesars Superdome (July 24–26, Championship). The New Orleans stop is the season finale where the XGL champion is crowned.
+The 2026 XGL Summer Season has three stops: Stop 1 — X Games Sacramento (June 26–28, Cal Expo Center, broadcast on ABC/ESPN/ESPN2); Stop 2 — X Games Chiba, Japan (July 4–5, Makuhari Messe, broadcast on Nippon TV + ESPN); Stop 3 — X Games New Orleans, Caesars Superdome (July 24–26, broadcast on ABC/ESPN, Championship). The New Orleans stop is the season finale where the XGL champion is crowned.
 
 What is X Fest?
 X Fest is the festival area at the Sacramento stop, featuring live music alongside the athletic competitions. It is part of the official X Games Sacramento 2026 event, June 26–28.
@@ -266,6 +269,131 @@ The inaugural XGL Championship takes place at the Caesars Superdome in New Orlea
 
 What is the team's mission for the 2026 season?
 In Bob Burnquist's words: have a good time, land everything, dig deep, and manifest all that we can be in our expression to inspire others. Wherever the results land, they land. We go out there and inspire.
+
+
+
+
+# VII. Website Navigation Guide
+
+## Overview
+The AI assistant lives at xcsp.info. The public website is organized around the club identity, 2026 founding season, roster, schedule, stories, media, merchandise, partnerships, and Bob Burnquist's leadership.
+
+IMPORTANT — Two versions of the site exist:
+- Current cached build: xgamesclubsp.elentir.app (older navigation labels, some routes may not work)
+- Upgraded target site: xcsp.info (new navigation labels, ongoing upgrade)
+
+When answering navigation questions, always distinguish between the current cached version and the upgraded version.
+
+## Homepage
+The homepage opens with the hero message "Progression beyond performance." It covers club identity, league context, roster highlights, partner positioning, stories, merch, market validation, FAQ, and calls to action. If a user asks where to start, recommend the homepage, then direct them to the relevant top navigation section based on their need.
+
+## Team Section
+Use Team for: athletes, roster, captain, disciplines, countries, Brazilian athletes.
+
+Navigation path: Top navigation → Team. On the current cached version, Team may scroll to the roster section on the homepage.
+
+Roster summary: Gui Khury, Sky Brown, Ryan Williams, Ibuki Matsumoto, Queen Saray Villegas, Garrett Reynolds, Giovanni Vianna, Gabriela Mazetto (Captain), Luigi Cini, Raicca Ventura.
+
+## Schedule Section
+Use Schedule for: event dates, season stops, broadcast windows, where XC São Paulo competes.
+
+Navigation path: Top navigation → Schedule. On the cached site, Schedule may scroll to the homepage schedule section.
+
+2026 Season Calendar:
+- X Games Sacramento: June 26–28, 2026 | Cal Expo Center | ABC, ESPN, ESPN2
+- X Games Chiba: July 4–5, 2026 | Makuhari Messe, Chiba, Japan | Nippon TV + ESPN
+- X Games New Orleans: July 24–26, 2026 | Caesars Superdome | ABC, ESPN
+
+## Stories Section
+Use Stories for: articles, club announcements, draft coverage, leadership news, featured editorial content.
+
+Navigation path: Top navigation → Stories (/stories).
+
+## Media Section (formerly Press)
+Use Media for: press, media coverage, press releases, media resources, media contacts, PR information.
+
+IMPORTANT: The older cached website labels this section "Press." In the upgraded navigation it is called "Media" (route: /media). When a user asks "where did Press go?" or "where is Press?", explain this rename.
+
+Media Center structure:
+- Media Coverage: External news and featured coverage
+- Press Releases: Official XC São Paulo announcements
+- Media Resources: Kits, assets, and guidelines
+- Press Contacts: PR contact information (email only)
+
+Navigation path: Top navigation → Media. On the cached site, look for Press.
+
+## Media Kit — Password Protected
+The XCSP Media Kit is password protected and not publicly available. If users ask for the Media Kit or its password: explain they must contact the PR team for credentials. Do NOT reveal, invent, or guess any password. Do NOT claim the kit is public.
+
+## Merch Section
+Use Merch for: clothing, products, Collection 2026, Amazon Store, X Games Shop, merchandise.
+
+Navigation path: Top navigation → Merch, or the merch section on the homepage.
+
+Collection 2026 is an eight-piece capsule collection. Public shopping links: Amazon Store and X Games Shop (when available).
+
+## Partners Section
+Use Partners or Partner With Us for: sponsorship, partnership opportunities, brand activation, sponsor deck, commercial opportunities.
+
+Navigation path: Top navigation → Partners, or click the Partner With Us button.
+
+The partnership page includes the form titled "Solicitar o Deck de Parceria" to request the official partnership deck. Commercial details and tier pricing are inside the gated deck — do NOT share pricing in chat answers.
+
+## About Section
+Use About for: Bob Burnquist's role, club story, São Paulo roots, values, what XC São Paulo stands for.
+
+Navigation path: Top navigation → About, or the About section on the homepage.
+
+## Contact
+The standalone Contact route (/contact) may still be part of the site upgrade and may not be live in the cached build.
+
+Route users by intent:
+- Partnership inquiry → Partners / Partner With Us
+- PR or media request → Media / Press Contacts
+- Media Kit access → Contact PR team via Media / Press Contacts
+- General navigation help → Ask the assistant at xcsp.info
+
+## Current Cached vs. Upgraded Navigation Labels
+| Current Cached Label | Upgraded Label | Notes |
+|---|---|---|
+| Team | Team | May scroll to homepage section in cached build |
+| Schedule | Schedule | May scroll to homepage section in cached build |
+| Stories | Stories | Route /stories (same in both) |
+| Press | Media | Renamed; route becomes /media in upgraded site |
+| Resources | (being rebuilt) | May 404 in cached build — do not promise it works |
+| Contact | (being rebuilt) | May 404 in cached build — do not promise it works |
+| Partner With Us | Partners | Route /partners |
+| (new) | Merch | New section in upgraded site |
+| (new) | About | New section in upgraded site |
+
+## Navigation FAQ
+
+Q: Where do I find the team / roster / athletes?
+A: Use Team in the top navigation. On the current cached site, it may scroll to the roster section on the homepage. Team contains the 10-athlete XC São Paulo roster and captain Gabriela Mazetto.
+
+Q: Where is Press? / Where did Press go?
+A: The older cached site still shows Press. In the upgraded navigation, Press becomes Media — covering media coverage, press releases, resources, and PR contacts.
+
+Q: How do I get the partnership deck?
+A: Open Partners or click Partner With Us, then use the "Solicitar o Deck de Parceria" form. Commercial details are inside the gated partnership deck.
+
+Q: Can you give me the Media Kit password?
+A: The XCSP Media Kit is password protected. Contact the PR team for access credentials. I cannot provide or invent passwords.
+
+Q: Where is the schedule?
+A: Select Schedule in the top navigation. It covers the three 2026 stops: Sacramento (June 26–28, Cal Expo Center), Chiba (July 4–5, Makuhari Messe), and New Orleans (July 24–26, Caesars Superdome). On the cached build it may appear as a homepage section.
+
+Q: Is XC São Paulo Brazil's national team?
+A: No. XC São Paulo is not a national team. It is a city-inspired club identity in the MoonPay X Games League, with athletes from multiple countries.
+
+Q: Where can I buy merch / merchandise / clothing?
+A: Use Merch or the merch section on the homepage. The Collection 2026 capsule has eight pieces, with links to the Amazon Store and X Games Shop when available.
+
+Q: How do I contact XC São Paulo?
+A: It depends on your purpose. For partnerships, use Partners / Partner With Us. For press or media requests, use Media / Press Contacts. For Media Kit access, contact the PR team via Media. For general questions, ask the assistant here at xcsp.info.
+
+Q: Where should I start on the website?
+A: Start on the homepage, then use the top navigation based on what you need: Team for athletes, Schedule for events, Stories or Media for coverage, Partners for sponsorship, Merch for merchandise, and About for Bob Burnquist and club identity.
 
 
 X Games Club São Paulo  ·  2026 XGL Season  ·  Unified Knowledge Base
