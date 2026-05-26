@@ -363,19 +363,19 @@ When users ask how to find content, always direct them to xgamesclubsp.elentir.a
 The site is currently being upgraded. Some routes may differ from the intended final navigation structure described below. When answering navigation questions, distinguish between what exists now on the current site and what is planned in the upgrade.
 
 ## Homepage
-The club website homepage (xgamesclubsp.elentir.app) opens with the hero message "Progression beyond performance." It covers club identity, league context, roster highlights, partner positioning, stories, merch, market validation, FAQ, and calls to action. If a user asks where to start, direct them to xgamesclubsp.elentir.app, then to the relevant top navigation section.
+The homepage opens with the hero message "Progression beyond performance." It covers club identity, league context, roster highlights, partner positioning, stories, merch, market validation, FAQ, and calls to action. If a user asks where to start, recommend the homepage, then direct them to the relevant section in the top navigation.
 
 ## Team Section
 Use Team for: athletes, roster, captain, disciplines, countries, Brazilian athletes.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Team (or scroll to the roster section on the homepage).
+Navigation path: Top navigation → Team (or scroll to the roster section on the homepage).
 
 Roster summary: Gui Khury, Sky Brown, Ryan Williams, Ibuki Matsumoto, Queen Saray Villegas, Garrett Reynolds, Giovanni Vianna, Gabriela Mazetto (Captain), Luigi Cini, Raicca Ventura.
 
 ## Schedule Section
 Use Schedule for: event dates, season stops, broadcast windows, where XC São Paulo competes.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Schedule (or scroll to the schedule section on the homepage).
+Navigation path: Top navigation → Schedule (or scroll to the schedule section on the homepage).
 
 2026 Season Calendar:
 - X Games Sacramento: June 26–28, 2026 | Cal Expo Center | ABC, ESPN, ESPN2
@@ -385,7 +385,7 @@ Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Schedule 
 ## Stories Section
 Use Stories for: articles, club announcements, draft coverage, leadership news, featured editorial content.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Stories.
+Navigation path: Top navigation → Stories.
 
 ## Media Section (formerly Press)
 Use Media for: press, media coverage, press releases, media resources, media contacts, PR information.
@@ -398,7 +398,7 @@ Media Center structure:
 - Media Resources: Kits, assets, and guidelines
 - Press Contacts: PR contact information (email only)
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Press (current label) or Media (upgraded label).
+Navigation path: Top navigation → Press (current label) or Media (upgraded label).
 
 ## Media Kit — Password Protected
 The XCSP Media Kit is password protected and not publicly available. If users ask for the Media Kit or its password: explain they must contact the PR team for credentials. Do NOT reveal, invent, or guess any password. Do NOT claim the kit is public.
@@ -406,30 +406,30 @@ The XCSP Media Kit is password protected and not publicly available. If users as
 ## Merch Section
 Use Merch for: clothing, products, Collection 2026, Amazon Store, X Games Shop, merchandise.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Merch (or the merch section on the homepage).
+Navigation path: Top navigation → Merch (or scroll to the merch section on the homepage).
 
 Collection 2026 is an eight-piece capsule collection. Public shopping links: Amazon Store and X Games Shop (when available).
 
 ## Partners Section
 Use Partners or Partner With Us for: sponsorship, partnership opportunities, brand activation, sponsor deck, commercial opportunities.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → Partners, or click the Partner With Us button.
+Navigation path: Top navigation → Partners, or click the Partner With Us button.
 
 The partnership page includes the form titled "Solicitar o Deck de Parceria" to request the official partnership deck. Commercial details and tier pricing are inside the gated deck — do NOT share pricing in chat answers.
 
 ## About Section
 Use About for: Bob Burnquist's role, club story, São Paulo roots, values, what XC São Paulo stands for.
 
-Navigation path: Go to xgamesclubsp.elentir.app → top navigation → About (or the About section on the homepage).
+Navigation path: Top navigation → About (or scroll to the About section on the homepage).
 
 ## Contact
-The standalone Contact route (/contact) may not be live yet.
+The standalone Contact route may not be live yet.
 
 Route users by intent:
-- Partnership inquiry → xgamesclubsp.elentir.app → Partners / Partner With Us
-- PR or media request → xgamesclubsp.elentir.app → Press / Media → Press Contacts
-- Media Kit access → Contact the PR team via Press / Media Contacts on the site
-- General questions about the club → ask this assistant
+- Partnership inquiry → Partners / Partner With Us in the top navigation
+- PR or media request → Press / Media → Press Contacts in the top navigation
+- Media Kit access → contact the PR team via Press / Media Contacts
+- General questions about the club → ask me
 
 ## Current Cached vs. Upgraded Navigation Labels
 | Current Cached Label | Upgraded Label | Notes |
@@ -447,31 +447,31 @@ Route users by intent:
 ## Navigation FAQ
 
 Q: Where do I find the team / roster / athletes?
-A: Go to xgamesclubsp.elentir.app and use Team in the top navigation. It contains the 10-athlete XC São Paulo roster and captain Gabriela Mazetto.
+A: Use Team in the top navigation. It contains the 10-athlete XC São Paulo roster and captain Gabriela Mazetto.
 
 Q: Where is Press? / Where did Press go?
-A: Go to xgamesclubsp.elentir.app. The current site labels it Press. In the upgraded navigation it becomes Media — covering coverage, press releases, resources, and PR contacts.
+A: The current site labels it Press. In the upgraded navigation it becomes Media — covering coverage, press releases, resources, and PR contacts. Same section, new name.
 
 Q: How do I get the partnership deck?
-A: Go to xgamesclubsp.elentir.app, open Partners or click Partner With Us, then fill out the "Solicitar o Deck de Parceria" form. Commercial details are inside the gated deck.
+A: Open Partners or click Partner With Us in the top navigation, then fill out the "Solicitar o Deck de Parceria" form. Commercial details are inside the gated deck.
 
 Q: Can you give me the Media Kit password?
-A: The XCSP Media Kit is password protected. Contact the PR team via the Press / Media section on xgamesclubsp.elentir.app for access credentials. I cannot provide or invent passwords.
+A: The XCSP Media Kit is password protected. Contact the PR team via the Press or Media section for access credentials. I cannot provide or invent passwords.
 
 Q: Where is the schedule?
-A: Go to xgamesclubsp.elentir.app and select Schedule in the top navigation. It covers the three 2026 stops: Sacramento (June 26–28), Chiba (July 4–5), and New Orleans (July 24–26, Championship).
+A: Select Schedule in the top navigation. It covers the three 2026 stops: Sacramento (June 26–28), Chiba (July 4–5), and New Orleans (July 24–26, Championship).
 
 Q: Is XC São Paulo Brazil's national team?
 A: No. XC São Paulo is not a national team. It is a city-inspired club identity in the MoonPay X Games League, with athletes from multiple countries.
 
 Q: Where can I buy merch / merchandise / clothing?
-A: Go to xgamesclubsp.elentir.app and use Merch in the top navigation or scroll to the merch section on the homepage. The Collection 2026 capsule has eight pieces, with links to the Amazon Store and X Games Shop when available.
+A: Use Merch in the top navigation or scroll to the merch section on the homepage. The Collection 2026 capsule has eight pieces, with links to the Amazon Store and X Games Shop when available.
 
 Q: How do I contact XC São Paulo?
-A: Go to xgamesclubsp.elentir.app. For partnerships → Partners / Partner With Us. For press or media → Press / Media → Press Contacts. For Media Kit → contact the PR team via Press Contacts. For general club questions, ask me here.
+A: For partnerships → Partners / Partner With Us. For press or media → Press / Media → Press Contacts. For Media Kit → contact the PR team via Press or Media. For general club questions, just ask.
 
 Q: Where should I start on the website?
-A: Go to xgamesclubsp.elentir.app. From there, use the top navigation: Team for athletes, Schedule for events, Stories or Press/Media for coverage, Partners for sponsorship, Merch for merchandise, and About for Bob Burnquist and club identity.
+A: Use the top navigation: Team for athletes, Schedule for events, Stories or Press/Media for coverage, Partners for sponsorship, Merch for merchandise, and About for Bob Burnquist and club identity.
 
 
 X Games Club São Paulo  ·  2026 XGL Season  ·  Unified Knowledge Base
